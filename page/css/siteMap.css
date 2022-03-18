@@ -1,0 +1,39 @@
+.title{
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px auto;
+}
+.nav{
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 95%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border: 1px solid #eee;
+}
+.nav a{
+    text-decoration: none;
+    color: #191818;
+}
+.newArtical{
+    width: 95%;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.newArtical li{
+    list-style: none;
+    padding: 8px;
+}
+.newArtical li a{
+    text-decoration: none;
+    color: #191818;
+}
+.newArtical li a:hover{
+    text-decoration: underline;
+    color: rgb(29, 157, 232);
+}

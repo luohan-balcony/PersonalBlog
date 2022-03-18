@@ -1,0 +1,72 @@
+/* 每日一句开始 */
+.content .maincontent .everyword{
+    width: 60%;
+    height:120px;
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 1px 1px 1px #aaa;
+    border-radius: 5px;
+    padding:20px 10px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 15px;
+}
+.content .maincontent .everyword .english{
+    width: 100%;
+    display: block;
+}
+.content .maincontent .everyword p{
+    margin:4px auto;
+}
+.content .maincontent .everyword .everytitle{
+    color: rgb(64, 224, 125);
+}
+.content .maincontent .everyword .edit{
+    position: absolute;
+    right: 10px;
+}
+/* 每日一句结束 */
+
+/* 文章部分开始 */
+.content .maincontent .blogs{
+    width: 60%;
+}
+.content .maincontent .blogs .artical{
+    width: 100%;
+    height: 180px;
+    background: #fff;
+    box-shadow: 1px 1px 1px #aaa;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.content .maincontent .blogs .artical .artical-title{
+    font-size: 18px;
+    margin: 20px auto 10px 10px;
+    color: #191818;
+}
+.content .maincontent .blogs .artical .artical-title:hover{
+    color: rgb(29, 157, 232);
+    text-decoration: underline;
+}
+.content .maincontent .blogs .artical .artical-content{
+    margin: 0px 10px auto 10px;
+    font-size: 14px;
+
+}
+.content .maincontent .blogs .artical .artical-tags{
+    background: #191818;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}

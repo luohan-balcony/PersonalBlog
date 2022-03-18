@@ -1,0 +1,77 @@
+.detail,.comments{
+    background: white;
+    width: 60%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 3px 4px 3px #888888;
+    text-align: left;
+    box-sizing: border-box;
+}
+h4{
+    padding-top: 10px;
+}
+.clomun{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.content{
+    font-size: 14px;
+}
+.comments{
+    background: #eee;
+    margin-top: 20px;
+}
+.comments div{
+    display: block;
+    padding: 10px 0px;
+}
+.comments #comment_username,#comment_email,#comment_code{
+    padding: 6px;
+    width: 240px;
+    border-radius: 5px;
+    border:1px solid #888888
+}
+.comments #comment_content{
+    border-radius: 5px;
+}
+.comments .commit{
+    width: 100px;
+    height: 30px;
+    background: #bbb;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.comments .commit:hover{
+    background: #888888;
+    color: #fff;
+}
+/* 留言部分 */
+.leaveMessage{
+    width: 60%;
+}
+.leaveMessage .utilMessage{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+    display: block;
+}
+.leaveMessage .message{
+    width: 100%;
+    background: rgb(201, 234, 255);
+    border: 1px dashed rgb(29, 157, 232);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.leaveMessage .message .issueTime{
+    font-size: 12px;
+    display:inline-block;
+    color: rgb(26, 119, 173);
+}
+.leaveMessage .message .messageContent{
+    display: block;
+}

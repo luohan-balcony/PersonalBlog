@@ -1,0 +1,81 @@
+.content .about{
+    width: 60%;
+}
+.content .about .me-blog{
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 1px #aaa;
+    border-radius: 5px;
+}
+.content .about .me-blog span{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px solid #eee;
+    width: 95%;
+}
+.content .about p{
+    display: block;
+    font-size: 12px;
+    padding:0px 0px 10px 10px;
+}
+/* 留言部分 */
+.leaveMessage{
+    width: 100%;
+}
+.leaveMessage .utilMessage{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+    display: block;
+}
+.leaveMessage .message{
+    width: 100%;
+    background: rgb(201, 234, 255);
+    border: 1px dashed rgb(29, 157, 232);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.leaveMessage .message .issueTime{
+    font-size: 12px;
+    display:inline-block;
+    color: rgb(26, 119, 173);
+}
+.leaveMessage .message .messageContent{
+    display: block;
+}
+/* 提交评论 */
+.comments{
+    background: #eee;
+    margin-top: 20px;
+    width:100%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+.comments div{
+    display: block;
+    padding: 10px 0px;
+}
+.comments #comment_username,#comment_email,#comment_code{
+    padding: 6px;
+    width: 240px;
+    border-radius: 5px;
+    border:1px solid #888888
+}
+.comments #comment_content{
+    border-radius: 5px;
+}
+.comments .commit{
+    width: 100px;
+    height: 30px;
+    background: #bbb;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.comments .commit:hover{
+    background: #888888;
+    color: #fff;
+}
